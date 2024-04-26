@@ -15,6 +15,28 @@ h4 {
     font-weight: 700;
 }
 
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+/* css header */
 header{
     padding: 20px 0 0 0;
     background: white;
@@ -126,4 +148,54 @@ ul {
 }
 .icono3 {
     background-image: url(../img/icono3.png);
+}
+
+/* Agregando css cursos */
+#lista-cursos .row{
+    margin-bottom: 20px;    
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* css fotoer */
+.footer {
+    margin-top: 40px;
+    border-top:1px solid #aaa;;
+    padding-top: 40px;   
+}
+.footer .menu a{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
 }
